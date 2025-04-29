@@ -55,18 +55,36 @@ export default function About() {
             </div>
           )}
 
-          {activeTab === "Experience" && (
-            <div className="space-y-6">
-              <div>
-                <h4 className="text-xl font-bold">Senior AI Developer – Excelloid Soft Systems</h4>
-                <p className="text-sm italic text-slate-500">2019 – Present</p>
-                <p>
-                  Led AI initiatives for Al Accad Group’s marketing strategy, improving sales
-                  through predictive analytics and customer behavior modeling.
-                </p>
-              </div>
-            </div>
-          )}
+{activeTab === "Experience" && (
+  <div className="relative border-l-2 border-sky-500 pl-6 space-y-10 max-w-3xl mx-auto">
+    {/* 1st Job */}
+    <div className="relative">
+      <div className="absolute -left-3 top-1.5 w-3 h-3 bg-sky-500 rounded-full"></div>
+      <h4 className="text-xl font-semibold text-slate-800">
+        Senior AI Developer — Excelloid Soft Systems
+      </h4>
+      <p className="text-sm italic text-slate-500 mb-1">2019 – Present</p>
+      <p className="text-slate-700">
+        Led AI initiatives for Al Accad Group’s marketing strategy, building predictive models and optimizing campaigns with data insights.
+      </p>
+    </div>
+
+    {/* 2nd Job */}
+    <div className="relative">
+      <div className="absolute -left-3 top-1.5 w-3 h-3 bg-sky-500 rounded-full"></div>
+      <h4 className="text-xl font-semibold text-slate-800">
+        Machine Learning Engineer — HP Labs
+      </h4>
+      <p className="text-sm italic text-slate-500 mb-1">2016 – 2019</p>
+      <p className="text-slate-700">
+        Developed machine learning pipelines to analyze hardware usage patterns and reduce predictive maintenance costs.
+      </p>
+    </div>
+
+    {/* Add more entries as needed */}
+  </div>
+)}
+
 
           {activeTab === "Education" && (
             <div>
