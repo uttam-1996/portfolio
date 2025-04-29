@@ -35,7 +35,8 @@ A clean, professional, and responsive portfolio built using **React**, **Tailwin
 ### 1. Clone the Repo
 
 git clone https://github.com/uttam-1996/portfolio.git
-cd your-repo-name
+
+cd portfolio
 
 ### 1. Install Dependencies
 
